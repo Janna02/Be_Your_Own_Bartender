@@ -4,14 +4,13 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDRZgO6FAEtRsRec57RzWN9PttC76V1AxI",
-  authDomain: "janna02-c8a3b.firebaseapp.com",
-  databaseURL: "https://janna02-c8a3b-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "janna02-c8a3b",
-  storageBucket: "janna02-c8a3b.appspot.com",
-  messagingSenderId: "115086001572",
-  appId: "1:115086001572:web:48f92dd39ac3470f94ed31",
-  measurementId: "G-TNLXQ406BG"
+  apiKey: "AIzaSyDWrtJvQe282FmTI-b0Pl2Dbh4EcNgT2EU",
+  authDomain: "be-your-own-bartender-a0786.firebaseapp.com",
+  projectId: "be-your-own-bartender-a0786",
+  storageBucket: "be-your-own-bartender-a0786.appspot.com",
+  messagingSenderId: "526717767110",
+  appId: "1:526717767110:web:0bccd0fc79021bbf50b6c7",
+  measurementId: "G-H558V1340Z"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
