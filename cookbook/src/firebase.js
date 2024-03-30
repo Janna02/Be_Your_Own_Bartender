@@ -4,13 +4,14 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDWrtJvQe282FmTI-b0Pl2Dbh4EcNgT2EU",
-  authDomain: "be-your-own-bartender-a0786.firebaseapp.com",
-  projectId: "be-your-own-bartender-a0786",
-  storageBucket: "be-your-own-bartender-a0786.appspot.com",
-  messagingSenderId: "526717767110",
-  appId: "1:526717767110:web:0bccd0fc79021bbf50b6c7",
-  measurementId: "G-H558V1340Z"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  databaseURL: "YOUR_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
