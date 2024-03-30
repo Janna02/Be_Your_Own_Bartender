@@ -66,16 +66,15 @@ export default {
 ```
 # Useful advice
 
-## Project setup 1
+## Project setup 
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
 ```
 npm install firebase
 ```
 
+### Compiles and hot-reloads for development
+```
 npm install -g firebase-tools
 ```
 firebase login
