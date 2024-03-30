@@ -23,16 +23,15 @@ Vuex: Библиотека управления состоянием для уп
 ### Начало работы:
 1. Клонировать репозиторий: gh repo clone Janna02/Be_Your_Own_Bartender
 2. Установить зависимости: npm install
-3. Создайте файл src/firebase.js (Внутри папки с Проектом есть Readme с описанием его создания)
+3. Внесите правки в  файл src/firebase.js
 4. Запустить приложение: npm run serve
 5. Открыть браузер и посетить http://localhost:8080
 
 
-
 # cookbook
 
-Перед запуском, необходимо заполнить файл   
-**src/firebase.js**  вашей конфигурацией
+Перед запуском, необходимо внести правки в файл (ваша конфигурация)
+**src/firebase.js**  
   
 ``` JavaScript
 
@@ -66,30 +65,39 @@ export default {
 ```
 # Useful advice
 
-## Project setup 
+## Project setup
 ```
 npm install
-```
-npm install firebase
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm install -g firebase-tools
-```
-firebase login
-```
-firebase init
-```
-firebase deploy
+npm run serve
 ```
 
-npm run serve
+### Compiles and minifies for production
 ```
 npm run build
 ```
 
-#### Lints and fixes files
+### Lints and fixes files
 ```
 npm run lint -- --fix
+```
+### Firebase options
+
+```
+npm install firebase
+```
+```
+npm install -g firebase-tools
+```
+```
+firebase login
+```
+```
+firebase init
+```
+```
+firebase deploy
 ```
