@@ -105,7 +105,9 @@ export default {
         console.log("Пользователь успешно зарегистрирован!");
         this.$router.push("/");
       } catch (e) {
-        this.showToast(this.getErrorToastMessage(this.error.code || "Something wrong"));
+        this.showToast(
+          this.getErrorToastMessage(this.error.code || "Something wrong")
+        );
         console.error("Error during registration:", this.error.message);
       }
     },

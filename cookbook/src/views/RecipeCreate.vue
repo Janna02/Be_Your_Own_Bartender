@@ -101,7 +101,7 @@
                     >
                       <i class="material-icons">delete</i>
                     </a>
-                    Шаг  {{ index + 1 }}</label
+                    Шаг {{ index + 1 }}</label
                   >
                 </div>
                 <button class="btn waves-effect waves-light" @click="addStep">
