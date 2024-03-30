@@ -43,7 +43,7 @@
                         @click="removeIngredient(index)"
                       >
                         <i class="material-icons">delete</i> </a
-                      >Ингредиент {{ index + 1 }}</label
+                      >Ингредиент/Инструмент {{ index + 1 }}</label
                     >
                   </div>
                   <div class="input-field col l4 m6 s6">
