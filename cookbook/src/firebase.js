@@ -4,14 +4,14 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDRZgO6FAEtRsRec57RzWN9PttC76V1AxI",
-  authDomain: "janna02-c8a3b.firebaseapp.com",
-  databaseURL: "https://janna02-c8a3b-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "janna02-c8a3b",
-  storageBucket: "janna02-c8a3b.appspot.com",
-  messagingSenderId: "115086001572",
-  appId: "1:115086001572:web:48f92dd39ac3470f94ed31",
-  measurementId: "G-TNLXQ406BG"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  databaseURL: "YOUR_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
